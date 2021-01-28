@@ -33,3 +33,16 @@ TAS: image/KB
 
 3.最后的问题就是我们从这么多里面如何选择合适的candidates。
 当answer source是visual的时候就是算出哪个y和question最匹配；当answer source是KB的时候就是算出哪个visual concept与问题最匹配。但是这里做的都是关键词或者等操作，而不是semantic vector的。
+
+Cons:
+首先这种方法is vulnerable to misconceptions due to synonyms and homographs.(同义词和同形异意词)
+
+## 2.LEARNING-BASED FVQA @ ECCCV 2018（问题分解的思考）
+Motivation：
+1.避免directly learn an embedding of facts and question-image pairs into a space that permits to assess their compatibility.
+
+都是针对FVQA的工作吗，本质上学习的就是给定一张图和问题，我们需要做的事是answer source寻找的工作～(Image,KB).
+1.检索正确的fact
+2.检索正确的answersource。@二分类问题
+
+#### 那么关于如何检索
