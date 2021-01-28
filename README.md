@@ -24,9 +24,11 @@ Reviews of FVQA work
 TVC:Object/Scene/Action三种选项；
 REL:13 different values
 TAS: image/KB
+
 ![](FVQA_detail.png)
 
 2.然后用这个来匹配对应的pattern.
+
 ![](FVQA_Match.png)
 
 3.最后的问题就是我们从这么多里面如何选择合适的candidates。
