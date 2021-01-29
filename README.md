@@ -46,3 +46,17 @@ Motivation：
 2.检索正确的answersource。@二分类问题
 
 #### 那么关于如何检索
+
+## 3.Learning Visual knowledge Memory Networks for Visual Question Answering
+Motivation:
+1.现有的知识VQA的手段大多都是依赖于找到那个fact，可是这个太困难了。所以会损失很多acc
+2.textqa中key-value memory network是很有意义的。
+
+我们使用KB KV-memory network来完成本次的任务。
+
+![](VKMN_framework.png)
+
+### Input Module:
+这里就是多模态融合咯。这里采用的很粗糙哎。--visual attentive description。 for query purpose。
+##
+
