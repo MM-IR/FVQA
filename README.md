@@ -60,3 +60,13 @@ Motivation:
 这里就是多模态融合咯。这里采用的很粗糙哎。--visual attentive description。 for query purpose。
 ##
 
+
+
+
+## 2.In Defense of Grid Features for Visual Question Answering
+### Motivation:
+1. 这里就是bottom-up attention, bbx have recently surpassed vanilla grid-based as the de facto standard for vision and language tasks like VQA.(de facto standard表示业界标准)./dominate the leaderboard
+
+2.但是目前人们无法确认是否是这个更好的定位@regions导致了bottom-up的成功。我们这里对grid进行了重新的实验设计，他们也可以工作的很好。same acc@一倍多的速度bonus～
+
+3.同时我们验证我们的方法在其他的tasks表现也很好，比如image caption～
